@@ -7,3 +7,4 @@ Para los Laboratorios de la materia, vamos a utilizar el lenguaje de programaci�
 - Para aquellas personas que solamente puedan usar el celular para realizar los laboratorios, es posible descargar la aplicación Google Colab Android View ([Enlace a Google Play](https://play.google.com/store/apps/details?id=com.WeDevelopinPk.colabandroidwebview)), que les permite utilizar y ejecutar código Python en celdas.
 - También se pueden probar códigos en intérpretes online (con algunas limitaciones) como por ejemplo https://www.online-python.com/
 - Guia basíca de introducción a Python https://github.com/martinezarraigadamaria/IntroProgramacionPythonFCE2023
+- Playlist de clases del año 2021 https://www.youtube.com/watch?v=KKzi2FX3CK4&list=PLPisXeKom-sCDvaienLHx-8TUr9AFXKwg
