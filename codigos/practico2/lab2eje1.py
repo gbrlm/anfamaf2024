@@ -1,5 +1,5 @@
 # laboratorio 2 - ejercicio 1
-def rbisec(fun, I, mit, err):
+def rbisec(fun, I, err, mit):
     """
     Función que aplica el método de bisección, recibe:
     - fun: Función que recibe un x y devuelve un número.
@@ -44,7 +44,7 @@ def rbisec(fun, I, mit, err):
         # Si la función evaluada en c es suficientemente pequeña en modulo, salimos del for
         if abs(w) < err:
             # Si usamos f-string, no tenemos que poner comas innecesarias en print
-            print(f"se satisface la tolerancia con valor {w} en {c}")
+            # print(f"se satisface la tolerancia con valor {w} en {c}")
             #print("se satisface la tolerancia en ", abs(w), " en x = ", c)
             break
 
