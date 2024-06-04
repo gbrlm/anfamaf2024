@@ -7,12 +7,12 @@ def jacobi(A,b,err,mit):
     Minv = np.diag(1/np.diag(M))
     x_old = np.zeros(b.shape)
     for k in range(mit):
-        x_new = Minv @ ( N @ x0 ) + Minv @ b
+        x_new = Minv @ ( N @ x_old ) + Minv @ b
         if np.linalg.norm(x_new-x_old, ord=np.inf) <= err:
             break
         else:
             x_old = x_new.copy()
-    return [x1,k+1]
+    return [x_new,k+1]
 '''
 def jacobi(A, b, err, mit):
     n = A.shape[0]
